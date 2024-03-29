@@ -13,14 +13,11 @@ p {
     margin: 5px;
     width: 100%;
 }
-#menu-column {
-    background-color:bisque;
-    width: 20%;
-}
+
 
 #data-column {
     background-color: antiquewhite;
-    width: 60%;
+    
     /* padding: 10%; */
     overflow: scroll;
 }
@@ -48,9 +45,33 @@ p {
     height: 50vh;
     margin: 2rem;
 }
-#right-column {
-    background-color:bisque;
-    width: 20%;
+.h-media {
+    width: 80%;
+    margin: 2rem;
+}
+@media (max-width:600px) {
+    #data-column {
+        width: 100%;
+    }
+    #menu-column {
+        display: none;
+    }  
+    #right-column {
+        display: none;
+    }
+}
+@media (min-width:601px) {
+    #data-column {
+        width: 60%;
+    }
+    #menu-column {
+        background-color:bisque;
+        width: 20%;
+    }
+    #right-column {
+        background-color:bisque;
+        width: 20%;
+    }
 }
 .button-61 {
     align-items: center;
