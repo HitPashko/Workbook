@@ -11,10 +11,12 @@
         <ul>
             <li><a href="#lesson1">Mercredi 31 Janvier 2024</a></li>
             <li><a href="#lesson40">Mercredi 27 Mars 2024</a></li>
-            <li><a href="#lesson41">Jeudi 28 Mars 2024</a></li>
+            <li><a href="#lesson41" id="start">Jeudi 28 Mars 2024</a></li>
         </ul>
     </div>
     <div id="data-column">
+       
+
         <div id="lesson1" class="lesson">
             <h2 class="day-title">Mercredi 31 Janvier 2024</h2>
             <div class="data">
@@ -38,6 +40,7 @@
 
             </div>
         </div>
+
         <div id="lesson39" class="lesson">
             <h2 class="day-title">Mardi 26 Mars 2024</h2>
             <div class="data">
@@ -57,13 +60,17 @@
             <img class="h-media" src="./images/28-03-2024/WhatsApp Image 2024-03-28 at 10.09.03.jpeg" alt="">
             <div class="data">
                 <em><b>Régulier   </b></em>
-                <p>Je lave mon bébé</p>
-                <p>`Je` fait l`action</p>
-                <p>`bébé` reçoit l`action</p>
+                <pre>
+Je lave mon bébé
+`Je` fait l`action
+`bébé` reçoit l`action
+                </pre>
                 <em><b>Pronominal   </b></em>
-                <p>Je me lave</p>
-                <p>`Je` fait l`action</p>
-                <p>`Je` recoit l`action</p>
+                <pre>
+Je me lave
+`Je` fait l`action
+`Je` recoit l`action
+                </pre>
                 <ul class="themes">
                     <li>Vêtement</li>
                     <li>Adjectifs</li>
@@ -74,30 +81,36 @@
                 <p class="word">taille - розмір </p>
                 <p class="word">indifférent - байдужий</p>
                 <p class="word">manche - рукав</p>
-                <p class="word">salopette - Комбінезон </p>
+                <p class="word">salopette - комбінезон </p>
                 <p class="word">un soutien-gorge - ліфчик </p>
                 <p class="word">une culotte - труси жіночі </p>
                 <p class="word">caleçon - труси </p>
                 <p class="word">doux - м'який</p>
-                <em><b>les contraires</b></em>
-                <p>confortable       inconfortable</p>
-                <p>court             long</p>
-                <p>chaud             froid</p>
-                <p>grand             petit</p>
-                <p>original          classique</p>
-                <p>joli              laid</p>
-                <p>neuf/neuve        vieux/vieille</p>
-                <p>cher              économique</p>
-                <p>coloré            uni</p>
-                <p>clair             foncé</p>
+                <br>
+                <em><b>Les contraires</b></em>
+                <pre>
+confortable         inconfortable
+court               long
+chaud               froid
+grand               petit
+original            classique
+joli                laid
+neuf/neuve          vieux/vieille
+cher                économique
+coloré              uni
+clair               foncé
+                </pre>
                 <p class="word">laid - потворний</p>
                 <p class="word">joli - красивий</p>
                 <p class="word">clair - світлий</p>
                 <p class="word">foncé - темний</p>
                 <p class="word">rayé(e) - смугастий</p>
                 <p class="word">pointure - розмір для взуття</p>
-                <p>Les adjectifes sont toujours avant le nom</p>
-                <p>Але розміри, кольори, порядкові чисельники можуть бути перед</p>
+                <br>
+                <pre>
+Les adjectifes sont toujours avant le nom
+Але розміри, кольори, порядкові чисельники можуть бути перед
+                </pre>
                 <ol>
                     <li>C`est une belle voiture rouge</li>
                     <li>C`est une longue robe noire</li>
@@ -106,13 +119,16 @@
                     <li>C`est une bonne vieille grand-mère</li>
                     <li>C`est une large maison blanche</li>
                 </ol>
+                <br>
                 <em><b>Pronoms démonstratifs</b></em>
-                <p>`CE` pour musciline</p>
-                <p>`CET` pour musculine avant les voyelles</p>
-                <p>`CETTE` pour feminine</p>
-                <p>`CES` pour pluriel</p>
-                <p>Ce manteau est léger (robe)</p>
-                <p>Est-ce que cette robe léger aussi ?</p>
+                <pre>
+`CE` pour musciline
+`CET` pour musculine avant les voyelles
+`CETTE` pour feminine
+`CES` pour pluriel
+Ce manteau est léger (robe)
+Est-ce que cette robe léger aussi ?
+                </pre>
                 <p class="word">salissant - той що легко забрудюється</p>
                 <p class="word">tissu - тканина</p>
                 <p class="word">épicé - пряний</p>
@@ -122,9 +138,16 @@
 
             </div>
         </div>
+
     </div>
     <div id="right-column">
         <a href="https://glosbe.com/fr/uk/taille" target="_blank"><img style="width:100%" src="https://cdn4.suspilne.media/images/resize/1020x1.78/48edf3350a844970.jpg" alt=""></a>
     </div>
+    <script>
+        window.addEventListener("load", (event) => {
+            document.getElementById("start").click()
+        });
+      
+    </script>
 </body>
 </html>
