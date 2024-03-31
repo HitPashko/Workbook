@@ -70,7 +70,7 @@ td, th {
         left: 0;
     }  
     #menu-column:hover {
-        height: auto;
+        height: 50vh;
         color: indigo;
         background-color:antiquewhite
     }
