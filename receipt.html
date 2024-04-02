@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dranyky</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        html {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        body {
+            background-color: antiquewhite;
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            align-items: center;
+        }
+        .recipe {
+            display: grid;
+            grid-template-columns: 50% 50% ;
+            gap: 10px;
+        }
+        .title {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            justify-self: center;
+            color: rgb(100, 25, 25);
+            font-size: 3rem;
+        }
+        .ingredients {
+            color: rgb(100, 25, 25);
+            font-size: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .picture {
+            width: 80%;
+            padding: 2rem;
+        }
+
+        .action {
+            color: rgb(100, 25, 25);
+            font-size: 2rem;
+            /* display: flex;
+            flex-direction: column;
+            align-items: center; */
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        h2 {
+            color: rgb(100, 25, 25);
+            font-size: 3rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="recipe">
+        <H2 class="title">Dranyky</H1>
+        
+        <div class="ingredients">
+            <ul>
+                <li>Patate 4 pièces.</li>
+                <li>Crème sure  1 cuillère à soupe. </li>
+                <li>Farine 1 cuillère à soupe. </li>
+                <li>Beurre pour frire.</li>
+                <li>Sel un peu.</li>
+            </ul>
+        </div>
+        <img class="picture" src="https://static.1000.menu/img/content-v2/17/21/27110/postnye-draniki-iz-kartoshki_1614782786_14_max.jpg" alt="">
+        <div class="action">
+            <ol>
+                <li>Râpe la patate sur la râpe grand.</li>
+                <li>Sépare l'eau et da la patate.</li>
+                <li>Ajute la farine, la crème sure et du sel.</li>
+                <li>L'eau va à l'égout.</li>
+                <li>Mélange bien.</li>
+                <li>Préchauffe bien le poêle à frire.</li>
+                <li>Mets le beurre sur le poêle.</li>
+                <li>Mets la farce obtenu par la cuillère à soupe sur le poêle.</li>
+                <li>Fris sur les deux faces.</li>
+                <li>Sers chaud avec la crème sure.</li>
+            </ol>
+        </div>
+    </div>
+    
+
+</body>
+</html>
