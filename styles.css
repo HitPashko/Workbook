@@ -12,6 +12,7 @@ body {
 p {
     margin: 5px;
     width: 100%;
+    text-indent: 4rem;
 }
 
 pre {
